@@ -1,0 +1,88 @@
+.right {
+    text-align: right;
+}
+.rcorners {
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    width: 500px;
+    height: 5px;
+}
+.centered {
+    text-align: center;
+    margin-top: 112px;
+}
+
+.moveUp {
+    margin-top: 0px;
+}
+
+.button {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    color: rgb(112, 112, 112);
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14.5px;
+    border-radius: 3px
+}
+
+.button:hover {
+    border: 1px solid lightgray;
+}
+
+.advanced {
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.logo-subtext {
+    margin-left: 711px;
+    margin-top: -21.5px;
+    font-family: 'Arial';
+    color: rgb(107, 107, 245);
+}
+
+.searchButton {
+    margin-bottom: 1000px;
+    margin-right: -500px;
+}
+
+.noBorder input:active { 
+    outline:none;
+}
+
+.noBorder input:focus { 
+    outline:none;
+}
+
+.moveRight {
+    margin-left: 17px;
+}
+.advancedButton input:focus { 
+    outline:blue;
+}
+
+.advancedButton input:active { 
+    outline:blue;
+}
+
+.advancedButton {
+    margin-left: 175px;
+    margin-top: 18px;
+}
+
+.findPagesWith {
+    margin-left: -175px;
+    margin-top: 20px;
+}
+
+.noNewLine {
+    display:inline-block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

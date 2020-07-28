@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="google.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>
+        $(document).ready(function () {
+        $("#form1").submit();
+        $("#form2").submit();
+        });
+        </script>
+    </head>
+    <body>
+        <div class="right">
+            <a href="index.html">Google Search</a><br>
+            <a href="googleImages.html">Google Images</a>
+        </div>
+        <div class="advanced">
+            <div style="font-size: 20px; font-family: Arial; color: rgb(220, 0, 0);">
+                Advanced Search
+            </div>
+            <img style="margin-left: -70px; margin-top: 11.5px;height: 30px; width: 1297px" src="advancedBar.png">
+            <div style="font-family: Arial, Helvetica, sans-serif; margin-top: 26px;">
+                Find pages with...
+            </div>
+            <form class="advancedButton" action="https://google.com/search">
+                <div class="findPagesWith" style="display: inline; font-size: 13px;">
+                    all these words:
+                </div>
+                <input style="width: 563px; height: 24px; margin-left: 85px;" type="text" name="q">
+                <div style="margin-left: 600px; margin-top: -23px; font-size: 11px; font-weight: lighter;">
+                    Type the important words: tricolor rat terrier<br><br><br>
+                </div>
+                <div class="findPagesWith" style="display: inline; font-size: 13px;">
+                    this exact word or phrase:
+                </div>
+                <input style="width: 563px; height: 24px; margin-left: 26px;" type="text" name="as_epq">
+                <div style="margin-left: 600px; margin-top: -23px; font-size: 11px; font-weight: lighter;">
+                    Put exact words in quotes: "rat terrier"<br><br><br>
+                </div>
+                <div class="findPagesWith" style="display: inline; font-size: 13px;">
+                    any of these words:
+                </div>
+                <input style="width: 563px; height: 24px; margin-left: 61px;" type="text" name="as_oq">
+                <div style="margin-left: 600px; margin-top: -23px; font-size: 11px; font-weight: lighter;">
+                    Type OR between all the words you want: miniature OR standard<br><br><br>
+                </div>
+                <div class="findPagesWith" style="display: inline; font-size: 13px;">
+                    none of these words:
+                </div>
+                <input style="width: 563px; height: 24px; margin-left: 53px;" type="text" name="as_eq">
+                <div style="margin-left: 600px; margin-top: -23px; font-size: 11px; font-weight: lighter;">
+                    Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"<br><br><br>
+                </div>
+                <input style="width: 120px; height: 30px; background-color: rgb(73, 110, 231); margin-left: 452px; color: white; border: none;" type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>
